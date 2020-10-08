@@ -4,7 +4,7 @@ Nela, pode-se acessar informações básicas de drinks e barmans/bargirls.
 
 ## Utilização
 
-Para utilizar a Pokedéx:
+Para utilizar:
 ```html
 1- Clone o repositório;
 2- Inicie o servidor com npm start no terminal;
