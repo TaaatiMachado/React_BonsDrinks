@@ -1,11 +1,30 @@
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.container {
+  display: grid;
+  grid-template-areas: 
+  "header" 
+  "content" 
+  "footer ";
+  grid-auto-rows: 150px;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-columns: 6fr;
+  grid-template-rows: 60px auto 40px;
+  width: 100%;
+  min-height: 100vh;
+  background: #fffdf8;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,0 +1,13 @@
+
+.footer {
+    grid-area: "footer";
+    height: 40px;
+    font-size: 15px;
+    font-weight:bold;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    background: #fffbef;
+    
+    
+  }
